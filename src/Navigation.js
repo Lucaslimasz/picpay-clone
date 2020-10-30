@@ -7,6 +7,7 @@ import PayButton from "./components/PayButton";
 import HomeScreen from "./screens/Home";
 import PayScreen from "./screens/Pay";
 import WalletScreen from "./screens/Wallet";
+import Notification from "./screens/Notifications";
 
 const Tab = createBottomTabNavigator();
 
@@ -71,7 +72,7 @@ export default function Navigation() {
       <Tab.Screen
         options={{ title: "Notificações" }}
         name="Notifications"
-        component={PayScreen}
+        component={Notification}
       />
       <Tab.Screen
         options={{ title: "Ajustes" }}
