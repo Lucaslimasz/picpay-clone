@@ -44,7 +44,6 @@ export default function Navigation() {
               />
             );
           }
-
           const { lib: Icon, name } = icons[route.name];
           return <Icon name={name} size={size} color={color} />;
         },
